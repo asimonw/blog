@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
-  "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "name": "blog",
+  "description": "Personal blog",
+  "version": "0.0.1",
+  "author": "Alex Wijns",
   "dependencies": {
     "gatsby": "^1.9.158",
     "gatsby-link": "^1.6.34",
@@ -10,7 +10,8 @@
     "gatsby-remark-prismjs": "^1.2.12",
     "gatsby-source-filesystem": "^1.5.14",
     "gatsby-transformer-remark": "^1.7.29",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "tachyons": "^4.9.1"
   },
   "keywords": [
     "gatsby"

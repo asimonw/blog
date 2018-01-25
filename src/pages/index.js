@@ -12,7 +12,12 @@ export default function Index({ data }) {
           return (
             <div className="post-preview" key={post.id}>
               <h2>
-                <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
+                <Link
+                  className="link near-black dim no-underline"
+                  to={post.frontmatter.path}
+                >
+                  {post.frontmatter.title}
+                </Link>
               </h2>
               <h3>{post.frontmatter.date}</h3>
               <p>{post.excerpt}</p>
